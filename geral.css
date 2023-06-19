@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400&family=Yanone+Kaffeesatz:wght@200;300;400&display=swap");
+
+/*font-family: 'Sora', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;*/
+
+:root {
+  --corBanner: #f2bce1;
+  --corPrincipal: #ff30c0;
+  --corSecundaria: #b7ffff;
+  --CorTerciaria: #30ffff;
+  --corExtra: #26C9C9;
+}
+
+
+header {
+  padding-bottom: 20px;
+  width: 99.9%;
+  display: inline-block;
+  border-bottom: 5px solid transparent;
+  background: linear-gradient(var(--corBanner), var(--corBanner))padding-box, linear-gradient(to right, #ff30c0, #30ffff)border-box;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-left: 40px;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Sora", sans-serif;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+ul li {
+  list-style-type: none;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+ul Li:hover {
+
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  background: linear-gradient(90deg, var(--corPrincipal) 25%, var(--corExtra) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  color: black solid;
+}
+
+footer {
+  font-family: "Sora", sans-serif;
+  text-align: center;
+  width: 99.9%;
+  display: inline-block;
+  border-top: 5px solid transparent;
+  background: linear-gradient(var(--corBanner), var(--corBanner))padding-box, linear-gradient(to right, #ff30c0, #30ffff)border-box;
+}
+
+pre {
+  text-align: center;
+}
+
+/*CLASSES*/
+
+.banner {
+  display: inline-block;
+}
+
+.header-menu {
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.logostarcourt {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.redes:hover{
+  scale: 1.2;
+}
+
+.horas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.horas-text {
+  margin-left: 20px;
+}

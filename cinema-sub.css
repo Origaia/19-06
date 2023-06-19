@@ -1,0 +1,267 @@
+/*Geral-inicio*/
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400&family=Yanone+Kaffeesatz:wght@200;300;400&display=swap");
+
+/*font-family: 'Sora', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;*/
+
+:root {
+  --corBanner: #f2bce1;
+  --corPrincipal: #ff30c0;
+  --corSecundaria: #b7ffff;
+  --CorTerciaria: #30ffff;
+  --corExtra: #26C9C9;
+}
+
+
+header {
+  padding-bottom: 20px;
+  width: 99.9%;
+  display: inline-block;
+  border-bottom: 5px solid transparent;
+  background: linear-gradient(var(--corBanner), var(--corBanner))padding-box, linear-gradient(to right, #ff30c0, #30ffff)border-box;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  margin-left: 40px;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Sora", sans-serif;
+}
+
+header ul{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+header ul li {
+  list-style-type: none;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+header ul Li:hover {
+
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  background: linear-gradient(90deg, var(--corPrincipal) 25%, var(--corExtra) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  color: black solid;
+}
+
+footer {
+  font-family: "Sora", sans-serif;
+  text-align: center;
+  width: 99.9%;
+  display: inline-block;
+  border-top: 5px solid transparent;
+  background: linear-gradient(var(--corBanner), var(--corBanner))padding-box, linear-gradient(to right, #ff30c0, #30ffff)border-box;
+}
+
+pre {
+  text-align: center;
+}
+
+/*CLASSES-geral*/
+
+.banner {
+  display: inline-block;
+}
+
+.header-menu {
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.logostarcourt {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.redes:hover{
+  scale: 1.2;
+}
+
+.horas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.horas-text {
+  margin-left: 20px;
+}
+/*Geral-fim*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.tudo div{
+    margin: auto;
+    border: 1px pink ;
+}
+.tudo a{
+    text-decoration: none;
+    color: inherit;
+}
+.tudo ul{
+    text-decoration: none;
+}
+.tudo li{
+    text-decoration: none;
+    margin: auto;
+    color: inherit;
+}
+.tudo p{
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+    text-indent: 2.5%;
+    border-top: 1px gray solid;
+}
+.tudo span{
+    text-transform: inherit;
+}
+/*IDS*/
+#img-filme{
+    width: 600px;
+    height: 1000px;
+    display: inline-block;
+    margin-top: 9px;
+}
+#video-yt{
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+}
+#volta{
+    text-align: center;
+    width: 100px;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+/*Classes*/
+.titulo-principal{
+    width: 99.9%;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+    border-bottom: 3px blue solid;
+    background-color: gray;
+}
+.Im{
+    width: 100%;
+    height: 900px;
+    border-radius: 20px;
+}
+.tabela-pr{
+    width: 100%;
+    height: 40%;
+}
+.tabela-pr li{
+    display: inline-block;
+}
+.conteudo-direita{
+    width: 60%;
+    height: 980px;
+    display: inline-block;
+    margin-top: 9px;
+    margin-left: 5px;
+}
+.infor{
+    text-align: justify;
+    text-align: left;
+    width: 100%;
+    height: 20%;
+}
+.sinopse{
+    text-align: justify;
+    display: flex;
+    width: 100%;
+    height: 20%;
+}
+.baner{
+    text-align: top;
+}
+.filme{
+    padding: 70px;
+}
+.cont{
+    width: 1000px;
+    height: 935px;
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+    border: 10px red solid;
+}
+.video{
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+.contvideo{
+    width: 50%;
+    height: 100%;
+}
+.dias{
+    border: 1px red solid;
+    border-radius: 3px;
+    width: 13%;
+    height: 10%;
+    margin: 3px;
+    text-align: center;
+}
+.texto-esquerda{
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    border-top: 5px gray solid;
+}
+.cont2{
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+    margin-top: 10px;
+}
+.gif{
+    margin: auto;
+}
+.bot{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.lk-bt{
+    border: 1px red solid;
+}
